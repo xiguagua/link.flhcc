@@ -8,6 +8,7 @@
         "components": [
           {
             "/": "/rule-providers/*",
+            "?": { "url": "*" },
             "comment": "Matches any URL whose path starts with /stock/"
           }
         ]
