@@ -9,7 +9,7 @@
           {
             "/": "/rule-providers/*",
             "?": { "url": "*" },
-            "comment": "Matches any URL whose path starts with /stock/"
+            "comment": "Matches any URL whose path starts with /rule-providers/"
           }
         ]
       }
