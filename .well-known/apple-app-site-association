@@ -8,7 +8,12 @@
         "components": [
           {
             "/": "/rule-providers/?*",
-            "?": { "url": "?*" },
+            "?": {
+              "url": "?*",
+              "format": "?*",
+              "content": "?*",
+              "policy": "?*"
+            },
             "comment": "Matches any URL whose path starts with /rule-providers/"
           }
         ]
