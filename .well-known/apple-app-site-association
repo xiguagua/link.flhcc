@@ -15,6 +15,13 @@
               "policy": "?*"
             },
             "comment": "Matches any URL whose path starts with /rule-providers/"
+          },
+          {
+            "/": "/subscriptions/?*",
+            "?": {
+              "url": "?*"
+            },
+            "comment": "Matches any URL whose path starts with /subscriptions/"
           }
         ]
       }
